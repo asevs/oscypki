@@ -163,7 +163,7 @@ export default () => (
             <iframe
               title="mapa"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6138.801058095978!2d19.19608803287503!3d49.6910707489603!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff8fc8731d21551c!2zVGFyZ8Ozd2Vr!5e0!3m2!1spl!2spl!4v1617354103733!5m2!1spl!2spl"
-              width="600"
+              width={window.screen.width < 600 ? `${window.screen.width - 10}` : '600'}
               height="400"
               style={{ border: 0 }}
               allowFullScreen=""
