@@ -4,7 +4,7 @@ import Layout from '../components/layout/Layout';
 import Oscypek from '../assets/oscypek.jpg';
 import Sklep from '../assets/sklep.jpg';
 import Chusta from '../assets/chusta.jpg';
-import banner from '../assets/tlo.png';
+import banner from '../assets/tlo.jpg';
 import ContactForm from '../components/ContactForm';
 import mediumZoom from 'medium-zoom';
 import ImageZoom from '../components/ImageZoom';
@@ -188,6 +188,6 @@ export default () => {
       </Layout>
     );
   } catch (error) {
-    return <div>haha</div>;
+    return <div> </div>;
   }
 };
