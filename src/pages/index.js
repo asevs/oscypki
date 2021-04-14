@@ -10,7 +10,10 @@ import mediumZoom from 'medium-zoom';
 import ImageZoom from '../components/ImageZoom';
 
 export default () => {
-  const zoom = React.useRef(mediumZoom());
+  let zoom = null;
+  try {
+    zoom = React.useRef(mediumZoom());
+  } catch (error) {}
 
   return (
     <Layout>
