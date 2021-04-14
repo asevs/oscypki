@@ -4,27 +4,27 @@ import Layout from '../components/layout/Layout';
 import Oscypek from '../assets/oscypek.jpg';
 import Sklep from '../assets/sklep.jpg';
 import Chusta from '../assets/chusta.jpg';
-import banner from '../assets/tlo.jpg';
+import banner from '../assets/tlo.png';
 import ContactForm from '../components/ContactForm';
+import mediumZoom from 'medium-zoom';
+import ImageZoom from '../components/ImageZoom';
 
 export default () => {
-  const [screenWidth, setScreenWidth] = useState(1024);
-  try {
-    setScreenWidth(window.screen.width);
-  } catch (error) {}
+  const zoom = React.useRef(mediumZoom());
+
   return (
     <Layout>
       <section
-        className="h-screen pt-20 md:pt-56 bg-fixed bg-no-repeat "
+        className="h-screen pt-20 md:pt-56 bg-cover bg-no-repeat bg-center"
         style={{ backgroundImage: `url(${banner})` }}
       >
         <div className="container mx-auto px-8 lg:flex ">
           <div className="my-24 text-center lg:text-left lg:w-1/2">
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none text-white">
-              Sery góralskie
+            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none text-black">
+              SERY GÓRALSKIE
             </h1>
-            <p className="text-white text-xl lg:text-3xl mt-6 font-light">
-              Smaczne i zdrowe sery góralskie.
+            <p className="text-black text-xl lg:text-3xl mt-6 font-light">
+              SMACZNE I ZDROWE SERY GÓRALSKIE
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default () => {
           <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
             <div className="flex-1 px-3">
               <Card className="mb-8">
-                <img src={Oscypek} alt="korbacz wedzony" />
+                <ImageZoom src={Oscypek} alt="Zoom 1" zoom={zoom.current} background="#000" />
                 <p className="font-semibold text-xl mt-1">Korbacz wędzony</p>
               </Card>
             </div>
@@ -168,11 +168,12 @@ export default () => {
               <iframe
                 title="mapa"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6138.801058095978!2d19.19608803287503!3d49.6910707489603!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff8fc8731d21551c!2zVGFyZ8Ozd2Vr!5e0!3m2!1spl!2spl!4v1617354103733!5m2!1spl!2spl"
-                width={screenWidth < 600 ? `${screenWidth - 10}` : '600'}
+                width="600"
                 height="400"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
+                className="w-full"
               />
             </div>
             <div className="flex-1 px-2">
