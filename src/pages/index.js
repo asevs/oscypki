@@ -187,5 +187,7 @@ export default () => {
         </section>
       </Layout>
     );
-  } catch (error) {}
+  } catch (error) {
+    return <div>haha</div>;
+  }
 };
