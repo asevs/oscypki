@@ -10,18 +10,17 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 bg-white shadow">
+    <header className="sticky top-0 bg-white shadow ">
       <div className="relative sm:hidden">
         <button
-          onClick={() => isOpen(!isOpenMenu)}
+          onClick={() => isOpen()}
           type="button"
-          className="absolute p-1 top-0 right-0 block text-gray-500 hover:text-white focus:text-white focus:outline-none"
+          className="cursor-pointer absolute p-3 top-0 right-0 block text-gray-500 hover:text-white focus:text-white focus:outline-none"
         >
-          <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
-            <path
-              fillRule="evenodd"
-              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-            />
+          <svg viewBox="0 0 100 80" width="35" height="35">
+            <rect width="100" height="20" rx="8" fill="#92400E"></rect>
+            <rect y="30" width="100" height="20" rx="8" fill="#92400E"></rect>
+            <rect y="60" width="100" height="20" rx="8" fill="#92400E"></rect>
           </svg>
         </button>
       </div>
