@@ -12,7 +12,6 @@
     "autoprefixer": "^10.2.5",
     "emailjs-com": "^2.6.4",
     "gatsby": "^2.18.18",
-    "gatsby-plugin-nprogress": "^3.3.0",
     "gatsby-plugin-sharp": "^2.14.3",
     "gatsby-theme-codebushi": "1.0.0",
     "medium-zoom": "^1.0.6",
