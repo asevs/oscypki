@@ -7,7 +7,7 @@ const Card = ({ image, description }) => {
     const zoom = React.useRef(mediumZoom());
     return (
       <div
-        className={`mb-8 p-10 pb-5 rounded-lg border border-solid border-gray-200 z-20`}
+        className="mb-8 p-10 pb-5 rounded-lg border border-solid border-gray-200 z-20"
         style={{
           boxShadow: '0 10px 28px rgba(0,0,0,.08)'
         }}
