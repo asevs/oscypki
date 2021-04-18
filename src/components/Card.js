@@ -1,13 +1,14 @@
 import React from 'react';
 import mediumZoom from 'medium-zoom';
-import ImageZoom from '../components/ImageZoom';
 import Carousel from 'nuka-carousel';
-const Card = ({ image, description }) => {
+import ImageZoom from './ImageZoom';
+
+const Card = ({ image, description, className }) => {
   try {
     const zoom = React.useRef(mediumZoom());
     return (
       <div
-        className="mb-8 p-10 pb-5 rounded-lg border border-solid border-gray-200 z-20"
+        className={`p-10 rounded-lg border border-solid border-gray-200 z-20 ${className}`}
         style={{
           boxShadow: '0 10px 28px rgba(0,0,0,.2)'
         }}
