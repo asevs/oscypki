@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 bg-white shadow ">
+    <header className=" z-10 sticky top-0 bg-white shadow ">
       <div className="relative sm:hidden">
         <button
           onClick={() => isOpen()}

@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Card from '../components/Card';
 import Layout from '../components/layout/Layout';
 import Oscypek from '../assets/oscypek.jpg';
+import Skarpety from '../assets/skarpety.jpg';
 import Sklep from '../assets/sklep.jpg';
 import Chusta from '../assets/chusta.jpg';
 import banner from '../assets/tlo.jpg';
@@ -49,7 +50,7 @@ export default () => {
               <Card image={Oscypek} description="Bundz wędzony z czarnuszką" />
             </div>
             <div className="flex-1 px-3">
-              <Card image={Oscypek} description="Bundz wędzony z czarnuszką" />
+              <Card image={Skarpety} description="Bundz wędzony z czarnuszką" />
             </div>
           </div>
           <div className="flex flex-col sm:flex-row sm:-mx-3">
