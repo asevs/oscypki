@@ -1,4 +1,5 @@
 import React from 'react';
+import { SEO } from 'gatsby-plugin-seo';
 import Card from '../components/Card';
 import Layout from '../components/layout/Layout';
 import Sklep from '../images/sklep.jpg';
@@ -9,6 +10,20 @@ import { regionalProducts, folkProducts } from '../images/images';
 export default () => {
   return (
     <Layout>
+      <SEO
+        title="Home"
+        description="Description of the site/home page."
+        pagePath="/"
+        schema={`{
+              "@context": "http://schema.org",
+              "@type": "WebPage",
+              "mainEntity": {
+                "@type": "Organization",
+                "name": "OSCYPMASTER",
+                "image": "https://oscypmaster.pl/static/logo-0c75c84648e608a1885836d7e597ec5c.webp"
+              }
+            }`}
+      />
       <section
         className="h-screen pt-20 md:pt-56 bg-cover bg-no-repeat bg-center"
         style={{ backgroundImage: `url(${banner})` }}

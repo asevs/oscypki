@@ -16,7 +16,13 @@ const Card = ({ images, description, price }) => {
       >
         <Carousel>
           {images.map(image => (
-            <ImageZoom loading="lazy" src={image} zoom={zoom.current} background="#000" />
+            <ImageZoom
+              loading="lazy"
+              src={image}
+              alt={description}
+              zoom={zoom.current}
+              background="#000"
+            />
           ))}
         </Carousel>
         <p className="font-semibold text-xl mt-5">{description}</p>

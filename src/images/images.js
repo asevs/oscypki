@@ -2,28 +2,28 @@ export const regionalProducts = [
   {
     id: 111,
     images: ['./images/wyrobyregionalne/48 zł_szt. - Ser owczy.jpg'],
-    price: '48 zł',
+    price: '48 zł/szt.',
     description: 'Ser owczy'
   },
   {
     id: 6,
     images: ['./images/wyrobyregionalne/26 zł_szt. - Ser góralski czysto owczy.jpg'],
-    price: '26 zł',
+    price: '26 zł/szt.',
     description: 'Ser góralski czysto owczy'
+  },
+  {
+    id: 1,
+    images: ['images/wyrobyregionalne/18 zł_szt. - Ser góralski mieszany.jpg'],
+    price: '18 zł/szt.',
+    description: 'Ser góralski mieszany'
   },
   {
     id: 1,
     images: [
       '/images/wyrobyregionalne/10 zł_szt. Ser góralski mieszany.jpg',
-      'images/wyrobyregionalne/18 zł_szt. - Ser góralski mieszany.jpg'
+      '/images/wyrobyregionalne/10 zł_szt. Ser góralski mieszany.jpg'
     ],
-    price: '18 zł',
-    description: 'Ser góralski mieszany'
-  },
-  {
-    id: 1,
-    images: ['/images/wyrobyregionalne/10 zł_szt. Ser góralski mieszany.jpg'],
-    price: '10 zł',
+    price: '10 zł/szt.',
     description: 'Ser góralski mieszany'
   },
   {
@@ -32,25 +32,25 @@ export const regionalProducts = [
       './images/wyrobyregionalne/12 zł_szt. Ser góralski mieszany 4.jpg',
       './images/wyrobyregionalne/12zł_szt. - Ser góralski mieszany 2.jpg'
     ],
-    price: '12 zł',
+    price: '12 zł/szt.',
     description: 'Ser góralski mieszany'
   },
   {
     id: 2,
     images: ['./images/wyrobyregionalne/2 zł_szt. - Serki góralskie wędzone.jpg'],
-    price: '2 zł',
+    price: '2 zł/szt.',
     description: 'Serki góralskie wędzone'
   },
   {
     id: 3,
     images: ['./images/wyrobyregionalne/2 zł_szt. - Serki góralskie naturalne.jpg'],
-    price: '2 zł',
+    price: '2 zł/szt.',
     description: 'Serki góralskie naturalne'
   },
   {
     id: 33,
     images: ['./images/wyrobyregionalne/2 zł_szt. Serki góralskie wędzone.jpg'],
-    price: '2 zł',
+    price: '2 zł/szt.',
     description: 'Serki góralskie wędzone z czosnkiem niedźwiedzim'
   },
   {
@@ -58,7 +58,7 @@ export const regionalProducts = [
     images: [
       './images/wyrobyregionalne/4 zł_wiązka - Korbacze - do wyboru wędzone lub naturalne.jpg'
     ],
-    price: '4 zł',
+    price: '4 zł/wiązka',
     description: 'Korbacze - do wyboru wędzone lub naturalne'
   },
   {
@@ -66,7 +66,7 @@ export const regionalProducts = [
     images: [
       './images/wyrobyregionalne/15 zł_szt. Bundz wędzony z przyprawami - do wyboru czarnuszka, czosnek niedźwiedzi, żurawina.jpg'
     ],
-    price: '15 zł',
+    price: '15 zł/szt.',
     description: 'Bundz wędzony z przyprawami - do wyboru czarnuszka, czosnek niedźwiedzi, żurawina'
   },
   {
@@ -110,13 +110,13 @@ export const folkProducts = [
       './images/wyrobyludowe/26 zł_szt. - Podkolanówki góralskie wełniane.jpg',
       './images/wyrobyludowe/22 zł_szt. Skarpety zakopiańskie wełniane _ 26 zł_szt. Podkolanówki zakopiańskie wełniane (Zbliżenie).jpg'
     ],
-    price: '26 zł',
+    price: '26 zł/szt.',
     description: 'Podkolanówki zakopiańskie'
   },
   {
     id: 10,
     images: ['./images/wyrobyludowe/22 zł_szt. - Kopytka góralskie wełniane.jpg'],
-    price: '22 zł',
+    price: '22 zł/szt.',
     description: 'Kopytka góralskie wełniane'
   },
   {
@@ -127,18 +127,8 @@ export const folkProducts = [
       './images/wyrobyludowe/19 zł_szt. Skarpety świąteczne.jpg',
       './images/wyrobyludowe/19 zł_szt. Skarpety świąteczne (zbliżenie) .jpg'
     ],
-    price: '19 zł',
+    price: '19 zł/szt.',
     description: 'Skarpety świąteczne'
-  },
-
-  {
-    id: 10,
-    images: [
-      './images/wyrobyludowe/38 zł_szt. - Pantofle regionalne wsuwane.jpg',
-      './images/wyrobyludowe/28 zł_szt. - Pantofle regionalne wsuwane (zbliżenie).jpg'
-    ],
-    price: '38 zł',
-    description: 'Pantofle regionalne wsuwane'
   },
 
   {
@@ -147,24 +137,35 @@ export const folkProducts = [
       './images/wyrobyludowe/39 zł damskie _ 44 zł męskie _ szt. - Pantofle zakopiańskie.jpg',
       './images/wyrobyludowe/39 zł damskie _ 44 zł męskie _ szt. - Pantofle zakopiańskie (zbliżenie).jpg'
     ],
-    price: '39 zł',
+    price: '39 zł/szt.',
     description: 'Pantofle zakopiańskie'
   },
-
+  {
+    id: 10,
+    images: [
+      './images/wyrobyludowe/38 zł_szt. - Pantofle regionalne wsuwane.jpg',
+      './images/wyrobyludowe/28 zł_szt. - Pantofle regionalne wsuwane (zbliżenie).jpg'
+    ],
+    price: '38 zł/szt.',
+    description: 'Pantofle regionalne wsuwane'
+  },
   {
     id: 2,
     images: [
       './images/wyrobyludowe/20 zł_szt. - Pantofle filcowe damskie.jpg',
       './images/wyrobyludowe/20 zł_szt. - Pantofle filcowe damskie (zbliżenie).jpg'
     ],
-    price: '20 zł',
+    price: '20 zł/szt.',
     description: 'Pantofle filcowe damskie'
   },
-  
+
   {
     id: 10,
-    images: ['./images/wyrobyludowe/20 zł_szt. - Pantofle regionalne skórzane damskie.jpg'],
-    price: '20 zł',
+    images: [
+      './images/wyrobyludowe/20 zł_szt. - Pantofle regionalne skórzane damskie.jpg',
+      './images/wyrobyludowe/20 zł_szt. - Pantofle regionalne damskie (zbliżenie)(1).jpg'
+    ],
+    price: '20 zł/szt.',
     description: 'Pantofle regionalne skórzane damskie'
   },
   {
@@ -173,32 +174,31 @@ export const folkProducts = [
       './images/wyrobyludowe/24 zł_szt. - Pantofle regionalne skórzane damskie.jpg',
       './images/wyrobyludowe/24 zł_szt. - Pantofle regionalne skórzane damskie (zbliżenie).jpg'
     ],
-    price: '24 zł',
+    price: '24 zł/szt.',
     description: 'Pantofle regionalne skórzane damskie'
   },
   {
     id: 10,
     images: [
       './images/wyrobyludowe/20 zł_szt. - Pantofle regionalne z kożuszkiem.jpg',
-      'src/images/wyrobyludowe/20 zł_szt. - Pantofle regionalne damskie z kożuszkiem (zbliżenie).jpg'
+      './images/wyrobyludowe/20 zł_szt. - Pantofle regionalne damskie z kożuszkiem (zbliżenie).jpg'
     ],
-    price: '20 zł',
+    price: '20 zł/szt.',
     description: 'Pantofle regionalne damskie z kożuszkiem'
   },
   {
     id: 3,
     images: [
       './images/wyrobyludowe/20 zł_szt. - Pantofle regionalne damskie .jpg',
-      './images/wyrobyludowe/20 zł_szt. - Pantofle regionalne damskie (zbliżenie).jpg',
-      './images/wyrobyludowe/20 zł_szt. - Pantofle regionalne damskie (zbliżenie)(1).jpg'
+      './images/wyrobyludowe/20 zł_szt. - Pantofle regionalne damskie (zbliżenie).jpg'
     ],
-    price: '20 zł',
+    price: '20 zł/szt.',
     description: 'Pantofle regionalne damskie'
   },
   {
     id: 10,
     images: ['./images/wyrobyludowe/24 zł_szt. - Pantofle regionalne męskie.png.jpg'],
-    price: '24 zł',
+    price: '24 zł/szt.',
     description: 'Pantofle regionalne męskie'
   },
   {
@@ -207,7 +207,7 @@ export const folkProducts = [
       './images/wyrobyludowe/28 zł_szt. - Pantofle filcowe.jpg',
       './images/wyrobyludowe/28 zł_szt. - Pantofle filcowe (zbliżenie).jpg'
     ],
-    price: '28 zł',
+    price: '28 zł/szt.',
     description: 'Pantofle filcowe'
   },
   {
@@ -216,7 +216,7 @@ export const folkProducts = [
       './images/wyrobyludowe/28 zł_szt. - Pantofle regionalne.jpg',
       './images/wyrobyludowe/28 zł_szt. - Pantofle regionalne (zbliżenie).jpg'
     ],
-    price: '28 zł',
+    price: '28 zł/szt.',
     description: 'Pantofle regionalne'
   },
   {
@@ -225,14 +225,14 @@ export const folkProducts = [
       './images/wyrobyludowe/28 zł_szt. - Pantofle regionalne skórzane.jpg',
       './images/wyrobyludowe/28 zł_szt. - Pantofle regionalne skórzane (zbliżenie).jpg'
     ],
-    price: '28 zł',
+    price: '28 zł/szt.',
     description: 'Pantofle regionalne skórzane'
   },
 
   {
     id: 10,
     images: ['./images/wyrobyludowe/180 zł_szt. Skóry owcze.jpg'],
-    price: '150 zł',
+    price: '150 zł/szt.',
     description: 'Skóry owcze'
   },
   {
@@ -241,7 +241,7 @@ export const folkProducts = [
       './images/wyrobyludowe/konik na biegunach 150zl.jpg',
       './images/wyrobyludowe/150 zł_szt. Konik na biegunach (zbliżenie).jpg'
     ],
-    price: '150 zł',
+    price: '150 zł/szt.',
     description: 'Konik na biegunach'
   },
   {
@@ -250,7 +250,7 @@ export const folkProducts = [
       './images/wyrobyludowe/bryczka zabawkowa.jpg',
       './images/wyrobyludowe/bryczka zabawkowa zblizenie.jpg'
     ],
-    price: '89 zł',
+    price: '89 zł/szt.',
     description: 'Bryczka zabawkowa'
   },
   {
@@ -259,7 +259,7 @@ export const folkProducts = [
       './images/wyrobyludowe/klepaki.jpg',
       './images/wyrobyludowe/35 zł_szt. - Klepaki (zbliżenie).jpg'
     ],
-    price: '35 zł',
+    price: '35 zł/szt.',
     description: 'Klepaki'
   },
   {
@@ -268,7 +268,7 @@ export const folkProducts = [
       './images/wyrobyludowe/chusta niebieska.jpg',
       './images/wyrobyludowe/chusta niebieska zblizenie.jpg'
     ],
-    price: '45 zł',
+    price: '45 zł/szt.',
     description: 'Chusta niebieska'
   },
   {
@@ -277,7 +277,7 @@ export const folkProducts = [
       './images/wyrobyludowe/chusta czarna.jpg',
       './images/wyrobyludowe/chusta czarna zblizenie.jpg'
     ],
-    price: '45 zł',
+    price: '45 zł/szt.',
     description: 'Chusta czarna'
   },
   {
@@ -286,7 +286,7 @@ export const folkProducts = [
       './images/wyrobyludowe/chusta czerwona.jpg',
       './images/wyrobyludowe/chusta czerwona zblizenie.jpg'
     ],
-    price: '45 zł',
+    price: '45 zł/szt.',
     description: 'Chusta czerwona'
   }
 ];
